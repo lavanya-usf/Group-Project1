@@ -11,6 +11,21 @@ namespace Group_Project1
         public string vehicleName;
         public string vehicleNumber;
 
+
+        public Vehicle()
+        {
+            vehicleName = "Lamborgini";
+            vehicleNumber = "369"
+        }
+
+        public Vehicle (string vehicleName,string vehicleNumber)
+        {
+            this.vehicleName = vehicleName;
+            this.vehicleNumber = vehicleNumber;
+        }
+
+
+
         public string getvehicleDetails()
         {
             return vehicleName;
