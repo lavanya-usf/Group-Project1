@@ -1,6 +1,6 @@
 ﻿namespace Group_Project1
 {
-    internal class vehicleType
+    internal class Program
     {
         static void Main(string[] args)
         {
